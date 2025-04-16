@@ -36,7 +36,7 @@
       ":dependencyDashboard"
     ],
     "prHourlyLimit": 0,
-    "prConcurrentLimit": 0
+    "prConcurrentLimit": 0,
     "packageRules": [
       {
         "groupName": "Monthly dependency updates",
