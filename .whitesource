@@ -31,14 +31,10 @@
   },
   "remediateSettings": {
     "enableRenovate": true,
-    "configMigration": true,
     "extends": [
       "config:recommended",
       ":dependencyDashboard"
     ],
-    "prHourlyLimit": 0,
-    "prConcurrentLimit": 0,
-    "packageRules": [],
     "workflowRules": {
       "enabled": true
     }
