@@ -39,7 +39,6 @@
       {
         "groupName": "Monthly dependency updates",
         "matchConfidence": ["very high", "high"],
-        "schedule": ["* * 1 * *"],
         "dependencyDashboardApproval": false
       },
       {
