@@ -37,6 +37,7 @@
     ],
     "prHourlyLimit": 0,
     "prConcurrentLimit": 0,
+    "configMigration": true,
     "packageRules": [
       {
         "groupName": "Monthly dependency updates!",
@@ -47,7 +48,11 @@
         "matchConfidence": ["low", "neutral", ""],
         "dependencyDashboardApproval": true,
         "commitMessagePrefix": "[LOW CONFIDENCE] "
-      }
+      },
+      {
+        "matchPackagePatterns": [".*"],
+        "dependencyDashboardApproval": true
+      },
     ],
     "workflowRules": {
       "enabled": true
