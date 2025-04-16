@@ -30,6 +30,11 @@
     "issueType": "repo"
   },
   "remediateSettings": {
+    "enableRenovate": true,
+    "extends": [
+      "config:recommended",
+      ":dependencyDashboard"
+    ],
     "workflowRules": {
       "enabled": true
     }
