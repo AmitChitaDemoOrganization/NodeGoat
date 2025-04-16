@@ -38,22 +38,7 @@
     ],
     "prHourlyLimit": 0,
     "prConcurrentLimit": 0,
-    "packageRules": [
-      {
-        "groupName": "Monthly dependency updates",
-        "matchConfidence": ["very high", "high"],
-        "dependencyDashboardApproval": false
-      },
-      {
-        "matchConfidence": ["low", "neutral", ""],
-        "dependencyDashboardApproval": true,
-        "commitMessagePrefix": "[LOW CONFIDENCE] "
-      },
-      {
-        "matchPackagePatterns": [".*"],
-        "dependencyDashboardApproval": true
-      }
-    ],
+    "packageRules": [],
     "workflowRules": {
       "enabled": true
     }
