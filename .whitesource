@@ -31,6 +31,7 @@
   },
   "remediateSettings": {
     "enableRenovate": true,
+    "configMigration": true,
     "extends": [
       "config:recommended",
       ":dependencyDashboard"
