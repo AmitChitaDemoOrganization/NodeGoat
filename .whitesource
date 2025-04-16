@@ -39,7 +39,7 @@
     "prConcurrentLimit": 0,
     "packageRules": [
       {
-        "groupName": "Monthly dependency updates!",
+        "groupName": "Monthly dependency updates",
         "matchConfidence": ["very high", "high"],
         "dependencyDashboardApproval": false
       },
