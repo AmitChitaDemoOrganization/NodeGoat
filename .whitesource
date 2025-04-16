@@ -52,7 +52,7 @@
       {
         "matchPackagePatterns": [".*"],
         "dependencyDashboardApproval": true
-      },
+      }
     ],
     "workflowRules": {
       "enabled": true
