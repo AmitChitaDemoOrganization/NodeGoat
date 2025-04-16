@@ -39,12 +39,12 @@
     "prConcurrentLimit": 0,
     "packageRules": [
       {
-        "groupName": "Monthly dependency updates",
+        "groupName": "Monthly dependency updates!",
         "matchConfidence": ["very high", "high"],
         "dependencyDashboardApproval": false
       },
       {
-        "matchConfidence": ["low", "neutral"],
+        "matchConfidence": ["low", "neutral", ""],
         "dependencyDashboardApproval": true,
         "commitMessagePrefix": "[LOW CONFIDENCE] "
       }
