@@ -35,6 +35,19 @@
       "config:recommended",
       ":dependencyDashboard"
     ],
+    "packageRules": [
+      {
+        "groupName": "Monthly dependency updates",
+        "matchUpdateTypes": ["minor", "patch"],
+        "matchConfidence": ["very high", "high"],
+        "dependencyDashboardApproval": false
+      },
+      {
+        "matchConfidence": ["low", "neutral"],
+        "dependencyDashboardApproval": true,
+        "commitMessagePrefix": "[LOW CONFIDENCE] "
+      }
+    ],
     "workflowRules": {
       "enabled": true
     }
