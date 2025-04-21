@@ -38,6 +38,7 @@
     "packageRules": [
       {
         "groupName": "High-confidence updates",
+        "matchPackagePatterns": [".*"],
         "matchUpdateTypes": [
           "major",
           "minor",
