@@ -54,22 +54,11 @@
         "matchConfidence": ["high", "very high"]
       },
       {
-        "matchUpdateTypes": [
-          "major",
-          "minor",
-          "patch",
-          "pin",
-          "digest",
-          "lockFileMaintenance",
-          "rollback",
-          "bump",
-          "internal",
-          "unknown"
-        ],
+        "matchConfidence": ["low", "neutral"],
         "enabled": false
       },
       {
-        "matchConfidence": ["low", "neutral"],
+        "groupName": "Unclassified updates",
         "enabled": false
       }
     ],
