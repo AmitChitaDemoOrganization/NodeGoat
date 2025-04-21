@@ -38,6 +38,18 @@
     "packageRules": [
       {
         "groupName": "High-confidence updates",
+        "matchUpdateTypes": [
+          "major",
+          "minor",
+          "patch",
+          "pin",
+          "digest",
+          "lockFileMaintenance",
+          "rollback",
+          "bump",
+          "internal",
+          "unknown"
+        ],
         "matchConfidence": ["high", "very high"]
       },
       {
