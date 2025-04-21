@@ -53,6 +53,21 @@
         "matchConfidence": ["high", "very high"]
       },
       {
+        "matchUpdateTypes": [
+          "major",
+          "minor",
+          "patch",
+          "pin",
+          "digest",
+          "lockFileMaintenance",
+          "rollback",
+          "bump",
+          "internal",
+          "unknown"
+        ],
+        "enabled": false
+      },
+      {
         "matchConfidence": ["low", "neutral"],
         "enabled": false
       }
