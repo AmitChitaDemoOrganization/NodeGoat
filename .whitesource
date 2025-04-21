@@ -50,6 +50,7 @@
           "internal",
           "unknown"
         ],
+        "enabled": false,
         "matchConfidence": ["high", "very high"]
       },
       {
