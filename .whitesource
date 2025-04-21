@@ -35,6 +35,16 @@
       "config:recommended",
       ":dependencyDashboard"
     ],
+    "packageRules": [
+      {
+        "groupName": "High-confidence updates",
+        "matchConfidence": ["high", "very high"]
+      },
+      {
+        "matchConfidence": ["low", "neutral"],
+        "enabled": false
+      }
+    ],
     "workflowRules": {
       "enabled": true
     }
