@@ -58,7 +58,7 @@
         "enabled": false
       },
       {
-        "groupName": "Unclassified updates",
+        "matchPackagePatterns": [".*"],
         "enabled": false
       }
     ],
