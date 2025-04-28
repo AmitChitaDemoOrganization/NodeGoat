@@ -37,14 +37,6 @@
     ],
     "packageRules": [
       {
-        "matchPackagePatterns": [".*"],
-        "enabled": false
-      },
-      {
-        "matchConfidence": ["low", "neutral"],
-        "enabled": false
-      },
-      {
         "groupName": "High-confidence updates",
         "matchUpdateTypes": [
           "major",
