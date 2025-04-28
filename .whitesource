@@ -43,19 +43,6 @@
       },
       {
         "groupName": "High-confidence updates",
-        "matchPackagePatterns": [".*"],
-        "matchUpdateTypes": [
-          "major",
-          "minor",
-          "patch",
-          "pin",
-          "digest",
-          "lockFileMaintenance",
-          "rollback",
-          "bump",
-          "internal",
-          "unknown"
-        ],
         "enabled": true,
         "matchConfidence": ["high", "very high"]
       }
