@@ -34,7 +34,8 @@
     "enableRenovate": true,
     "extends": [
       "config:recommended",
-      ":dependencyDashboard"
+      ":dependencyDashboard",
+      "mergeConfidence:all-badges"
     ],
     "dependencyDashboardApproval": true,
     "packageRules": [
