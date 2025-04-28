@@ -41,9 +41,19 @@
     "packageRules": [
       {
         "groupName": "High-confidence updates",
-        "enabled": true,
-        "dependencyDashboardApproval": false,
-        "matchConfidence": ["high", "very high"]
+        "description": "Confidence: high and very high - open PR",
+        "matchConfidence": ["high", "very high"],
+        "dependencyDashboardApproval": false
+      },
+      {
+        "description": "Confidence: mark as neutral",
+        "matchConfidence": ["neutral"],
+        "commitMessagePrefix": "[neutral] "
+      },
+      {
+        "description": "Confidence: mark as low",
+        "matchConfidence": ["low"],
+        "commitMessagePrefix": "[low] "
       }
     ],
     "workflowRules": {
