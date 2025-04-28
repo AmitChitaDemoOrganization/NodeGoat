@@ -37,7 +37,12 @@
     ],
     "packageRules": [
       {
+        "matchPackagePatterns": [".*"],
+        "enabled": false
+      },
+      {
         "groupName": "High-confidence updates",
+        "matchPackagePatterns": [".*"],
         "matchUpdateTypes": [
           "major",
           "minor",
@@ -55,7 +60,8 @@
       }
     ],
     "workflowRules": {
-      "enabled": true
+      "enabled": true,
+      "minVulnerabilitySeverity": "CRITICAL"
     }
   },
    "imageSettings":{
