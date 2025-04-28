@@ -40,10 +40,21 @@
     "dependencyDashboardApproval": true,
     "packageRules": [
       {
-        "groupName": "High-confidence updates",
+        "groupName": "High-confidence minor updates",
         "description": "Confidence: high and very high - open PR",
         "matchConfidence": ["high", "very high"],
+        "matchUpdateTypes": ["minor", "patch", "digest"],
         "dependencyDashboardApproval": false
+      },
+      {
+        "description": "Confidence: mark as very high",
+        "matchConfidence": ["very high"],
+        "commitMessagePrefix": "[very high] "
+      },
+      {
+        "description": "Confidence: mark as high",
+        "matchConfidence": ["high"],
+        "commitMessagePrefix": "[high] "
       },
       {
         "description": "Confidence: mark as neutral",
