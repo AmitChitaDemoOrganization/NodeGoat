@@ -38,10 +38,6 @@
     ],
     "packageRules": [
       {
-        "matchPackagePatterns": [".*"],
-        "enabled": false
-      },
-      {
         "groupName": "High-confidence updates",
         "enabled": true,
         "matchConfidence": ["high", "very high"]
