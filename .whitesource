@@ -37,6 +37,14 @@
     ],
     "packageRules": [
       {
+        "matchPackagePatterns": [".*"],
+        "enabled": false
+      },
+            {
+        "matchConfidence": ["low", "neutral"],
+        "enabled": false
+      },
+      {
         "groupName": "High-confidence updates",
         "matchPackagePatterns": [".*"],
         "matchUpdateTypes": [
@@ -53,14 +61,6 @@
         ],
         "enabled": true,
         "matchConfidence": ["high", "very high"]
-      },
-      {
-        "matchConfidence": ["low", "neutral"],
-        "enabled": false
-      },
-      {
-        "matchPackagePatterns": [".*"],
-        "enabled": false
       }
     ],
     "workflowRules": {
