@@ -40,13 +40,12 @@
         "matchPackagePatterns": [".*"],
         "enabled": false
       },
-            {
+      {
         "matchConfidence": ["low", "neutral"],
         "enabled": false
       },
       {
         "groupName": "High-confidence updates",
-        "matchPackagePatterns": [".*"],
         "matchUpdateTypes": [
           "major",
           "minor",
