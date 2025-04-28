@@ -36,10 +36,12 @@
       "config:recommended",
       ":dependencyDashboard"
     ],
+    "dependencyDashboardApproval": true,
     "packageRules": [
       {
         "groupName": "High-confidence updates",
         "enabled": true,
+        "dependencyDashboardApproval": false,
         "matchConfidence": ["high", "very high"]
       }
     ],
