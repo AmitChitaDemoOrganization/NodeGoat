@@ -1,11 +1,10 @@
 {
   "scanSettings": {
-    "configMode": "AUTO",
+    "configMode": "LOCAL",
     "enableReachability": true,
     "configExternalURL": "",
     "projectToken": "",
-    "baseBranches": [],
-    "uaConfigMergeSetting": "APPEND"
+    "baseBranches": []
   },
   "scanSettingsSAST": {
     "enableScan": true,
