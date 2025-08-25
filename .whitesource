@@ -4,7 +4,8 @@
     "enableReachability": true,
     "configExternalURL": "",
     "projectToken": "",
-    "baseBranches": []
+    "baseBranches": [],
+    "uaConfigMergeSetting": "APPEND",
   },
   "scanSettingsSAST": {
     "enableScan": true,
