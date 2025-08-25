@@ -5,7 +5,7 @@
     "configExternalURL": "",
     "projectToken": "",
     "baseBranches": [],
-    "uaConfigMergeSetting": "APPEND",
+    "uaConfigMergeSetting": "APPEND"
   },
   "scanSettingsSAST": {
     "enableScan": true,
